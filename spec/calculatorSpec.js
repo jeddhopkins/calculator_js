@@ -14,6 +14,12 @@ var calc;
   describe('subtracting numbers', function() {
     it('5 - 3 should equal 2', function () {
       expect(calc.subtract(5, 3)).toEqual(2)
+    });
+  });
+
+  describe('multiplying numbers', function() {
+    it('2 * 2 should equal 4', function() {
+      expect(calc.multiply(2, 2)).toEqual(4)
     })
   })
 });

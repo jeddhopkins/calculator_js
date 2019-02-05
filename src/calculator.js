@@ -20,3 +20,14 @@ Calculator.prototype.divide = function (num1, num2) {
 Calculator.prototype.square = function (num) {
   return num * num
 };
+
+Calculator.prototype.sqroot = function (num) {
+  return Math.sqrt(num)
+};
+
+Calculator.prototype.addThreeNumbers = function (num1, num2, num3) {
+  return num1 + num2 + num3
+};
+
+let calc = new Calculator
+console.log(calc.sqroot(10));

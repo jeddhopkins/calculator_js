@@ -26,6 +26,12 @@ var calc;
   describe('dividing numbers', function(){
     it('10 / 2 should equal 5', function() {
       expect(calc.divide(10, 2)).toEqual(5)
+    });
+  });
+
+  describe('square numbers', function() {
+    it('2 squared should equal 4', function() {
+      expect(calc.square(2)).toEqual(4)
     })
   })
 });

@@ -16,3 +16,7 @@ Calculator.prototype.multiply = function (num1, num2) {
 Calculator.prototype.divide = function (num1, num2) {
   return num1 / num2
 };
+
+Calculator.prototype.square = function (num) {
+  return num * num
+};

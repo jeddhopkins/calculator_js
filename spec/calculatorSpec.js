@@ -10,4 +10,10 @@ var calc;
       expect(calc.add(3, 3)).toEqual(6)
     });
   });
+
+  describe('subtracting numbers', function() {
+    it('5 - 3 should equal 2', function () {
+      expect(calc.subtract(5, 3)).toEqual(2)
+    })
+  })
 });

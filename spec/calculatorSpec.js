@@ -20,6 +20,12 @@ var calc;
   describe('multiplying numbers', function() {
     it('2 * 2 should equal 4', function() {
       expect(calc.multiply(2, 2)).toEqual(4)
+    });
+  });
+
+  describe('dividing numbers', function(){
+    it('10 / 2 should equal 5', function() {
+      expect(calc.divide(10, 2)).toEqual(5)
     })
   })
 });
